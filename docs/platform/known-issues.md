@@ -11,6 +11,10 @@ CouchDB Sync
 ------------
 You can't deploy new couchdb nodes after one or more have been deployed. Make *sure* that you configure and deploy all your couchdb nodes when starting the provider. The problem is that we dont not have a clean way of adding couch nodes after initial creation of the databases, so any nodes added after result in improperly synchronized data. See Bug [#5601](https://leap.se/code/issues/5601) for more information.
 
+SSH needs to listen on port 22
+------------------------------
+Right now it's not possible to change the OpenSSH server default port (as a way to avoid scanners). But this feature will be added in the next version!
+
 
 0.5.0rc1
 ========

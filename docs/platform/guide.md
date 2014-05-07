@@ -188,6 +188,7 @@ If the host key for a node has changed, you will get an error "WARNING: REMOTE H
 
 To fix this, you need to remove the file `files/nodes/stompy/stompy_ssh.pub` and run `leap node init stompy`, where the node's name is 'stompy'. **Only do this if you are ABSOLUTELY CERTAIN that the node's SSH host key has changed**.
 
+<!--
 Changing the SSH port
 --------------------------------
 
@@ -212,6 +213,7 @@ So, you manually override the port in the deploy command, using the old port:
     leap deploy --port 22 blinky
 
 Afterwards, SSH on `blinky` should be listening on port 2200 and you can just run `leap deploy blinky` from then on.
+-->
 
 X.509 Certificates
 ================================
