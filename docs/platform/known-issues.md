@@ -13,7 +13,7 @@ You can't deploy new couchdb nodes after one or more have been deployed. Make *s
 
 SSH needs to listen on port 22
 ------------------------------
-Right now it's not possible to change the OpenSSH server default port (as a way to avoid scanners). But this feature will be added in the next version!
+Right now it's not possible to change the OpenSSH server default port. But this feature will be added in the next version!
 
 
 0.5.0rc1
